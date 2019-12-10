@@ -87,7 +87,7 @@
 				</div>
 				<div id="footer">
 					<hr />
-					&copy; 2019 Trackitweb - All rights reserved.
+					
 				</div>
 			</div>
 		</div>
