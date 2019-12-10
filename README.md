@@ -24,6 +24,10 @@ Simply download the Enom DNSSEC Tool files and install them in a folder or subfo
 1. Make sure you satisfy all the Requirements noted above.
 1. Use your web host's control panel or command line to create the DNSSEC record for the domain.
 1. Browse to your installation of the Enom DNSSEC Tool.
-1. Fill out the fields for the domain and click Submit to send the request to Enom.
-1. Review the output in the iframe at the bottom of the Enom DNSSEC Tool for the results of the request.
-1. Use an online tool like [Verisign Labs DNSSEC Analyzer](https://dnssec-debugger.verisignlabs.com/) to check the results. Note that it may take a few minutes for all the checks to be green. 
+1. Select the command you wish to use for the request to Enom; e.g., "Add DNSSEC" to add DNSSEC for the domain.
+1. Select the Algorithm and Digest Type provided by your web host.
+1. Fill out the SLD and TLD fields for the domain. Note that there is no "." for the TLD.
+1. Enter the digest and key tags provided by your web host for the domain.
+1. Click the Submit button to send the request.
+1. Review the output in the iframe at the bottom of the Enom DNSSEC Tool for the results of the request. If there is an error, Enom will describe the issue in the results.
+1. If the request is successful, you can use an online tool like [Verisign Labs DNSSEC Analyzer](https://dnssec-debugger.verisignlabs.com/) to check the results. Note that it may take a few minutes for all the checks to be green. 
