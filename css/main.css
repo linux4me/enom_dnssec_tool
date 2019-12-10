@@ -1,0 +1,78 @@
+body {
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	background-color: #4d1170;
+}
+
+#inputtext {
+	width: 100%;
+}
+
+#container {
+	background-color: #FFFFFF;
+	max-width: 1060px;
+	margin: 5px auto 10px auto;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+#logo {
+	max-width: 80%;
+	height: auto;
+}
+
+form {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+
+form input, select {
+	margin-bottom: 15px;
+}
+
+.buttonholder {
+	text-align: center;
+}
+
+label {
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+}
+
+#resultsdiv {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#results {
+	width: 100%;
+	height: 300px;
+}
+
+.alignright {
+	float: right;
+}
+
+.center {
+	text-align: center;
+}
+
+.success {
+	color: green;
+}
+
+.fail {
+	color: red;
+}
+
+#footer {
+	text-align: center;
+	font-size: small;
+	margin-top: 30px;
+}
+
+#footer hr {
+	width: 40%;
+}
