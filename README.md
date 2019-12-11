@@ -10,7 +10,7 @@ The Enom DNSSEC tool is designed to make it easy for a person with an Enom resel
 ## Requirements
 * You must have an Enom reseller account to have access to the Emom API.
 * You must whitelist your IP address using Enom's API Live Environment Interface (Log on to your Enom reseller account, and on the Dashboard, scroll down to Reseller Services and click "API Live Environment Interface," where you can add your IP address.)
-* You must have access to generate the required DNSSEC data using the web host's control panel or command line for the domain.
+* You must have access to generate the required DNSSEC data using the web host's control panel or command line for the DNS of the domain.
 
 ## Security
 Enom's API requires that your Enom user ID and password be submitted in each API request (URL), so it is **absolutely essential** that you install and use the Enom DNSSEC Tool only on a secure (HTTPS) connection. 
